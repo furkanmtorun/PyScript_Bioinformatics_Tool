@@ -1,6 +1,6 @@
 # 🧬 PyScript Bioinformatics Tool
 
-We were get used write HTML in Python while using `Flask`, `Django` or other web frameworks like `Dash`.
+We were get used to write HTML in Python while using `Flask`, `Django` or other web frameworks like `Dash`.
 Now, how about writing Python in HTML? Yep, you heard right :) Thanks to PyScript!
 
 > **🖥️ Willing to jump to the demo? There you go: https://furkanmtorun.github.io/trial/simple_bioinformatics_tool.html**
@@ -11,15 +11,15 @@ Now, how about writing Python in HTML? Yep, you heard right :) Thanks to PyScrip
 
 **TL;DR:** It enables you to run Python in HTML!
 
-> PyScript is a framework that allows users to create rich Python applications in the browser using HTML’s interface. PyScript aims to give users a first-class programming language that has consistent styling rules, is more expressive, and is easier to learn.
+> **Offically:** PyScript is a framework that allows users to create rich Python applications in the browser using HTML’s interface. PyScript aims to give users a first-class programming language that has consistent styling rules, is more expressive, and is easier to learn.
 > 
-> - https://pyscript.net/
+> Source: https://pyscript.net/
 
 ## #️⃣ What's the functionality here?
 
-In this small repository, I aimed to build an example helps first-comers to `PyScript` while dealing with user inputs and also welcomes the bioinformatics / computational biology communities for their next applications!
+In this small repository, I aimed to build an example helps first-comers to `PyScript` while dealing with the user inputs and also to welcome the bioinformatics / computational biology communities for their next applications with `PyScript`!
 
-Here, I inspired by [a single-page web tool](https://www.bioinformatics.org/sms/rev_comp.html) that handles a common DNA sequence utility (getting `reverse`, `complement`, `reverse-complement` counterparts of a given DNA sequence.
+Here, I inspired by [a single-page web tool](https://www.bioinformatics.org/sms/rev_comp.html) that handles a common DNA sequence utility (getting `reverse`, `complement`, `reverse-complement` counterparts of a given DNA sequence).
 
 Basically, it enables any researcher to play around with DNA sequence and get the desired output according to their goals.
 
