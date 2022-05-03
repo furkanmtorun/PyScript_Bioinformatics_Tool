@@ -1,4 +1,4 @@
-# PyScript Bioinformatics Tool
+# 🧬 PyScript Bioinformatics Tool
 
 We were get used write HTML in Python while using `Flask`, `Django` or other web frameworks like `Dash`.
 Now, how about writing Python in HTML? Yep, you heard right :) Thanks to PyScript!
