@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PyScript — Use of PyRepl</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'>
+    <link rel="icon" type="image/png" href="https://user-images.githubusercontent.com/49681382/166738771-d0c26557-426c-4688-9641-8db5e6b08348.png" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+
+<!-- Header -->
+<section class="hero is-primary is-small">
+    <div class="hero-body">
+        <p class="title is-3">PyScript — Use of PyRepl <span class="tag is-white">v.1</span></p>
+        <p class="subtitle is-6">
+            Use of PyRepl from <code>PyScript</code> for guiding/tutorial/workshop etc. purposes
+        </p>
+    </div>
+</section>
+
+
+<!-- Main Content -->
+<div class="container is-white is-fluid" style="margin-top:45px">
+    <p class="title is-3">Cells to execute the code:</p>
+
+    <!-- Cell 1 -->
+    <py-repl id="my-repl"  auto-generate="true"> 
+        print("Bioinformatics/Computational Biology!")
+    </py-repl>
+    
+    <p>Instead of markdown, here, we could write some text with HTML tags!</p>
+
+    <!-- Cell 2 -->
+    <py-repl id="my-repl2"  auto-generate="true"> 
+        for index in range(6):
+            if index % 2 == 0:
+                print(index)   
+    </py-repl>
+</div> 
+
+<br><br>
+<!-- Footer -->
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            Developed by <a href="mailto:furkanmtorun@gmail.com"><strong>Furkan M. Torun (@furkanmtorun)</strong></a>
+            <br>
+            <a href="https://github.com/furkanmtorun">GitHub</a>
+            | <a href="https://scholar.google.com/citations?user=d5ZyOZ4AAAAJ">Google Scholar</a>
+            | <a href="https://twitter.com/furkanmtorun">Twitter</a>
+            | <a href="https://www.linkedin.com/in/furkanmtorun/">LinkedIn</a>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
