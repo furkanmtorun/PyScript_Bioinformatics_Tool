@@ -24,7 +24,7 @@ Here, I am inspired by [a single-page web tool](https://www.bioinformatics.org/s
 Basically, it enables any researcher to play around with DNA sequences and get the desired output according to their goals.
 
 ## #️⃣ Demo
-Visit https://furkanmtorun.github.io/trial/simple_bioinformatics_tool.html
+Visit https://furkanmtorun.github.io/PlayGround/simple_bioinformatics_tool.html
 
 ## #️⃣ Screenshot
 
